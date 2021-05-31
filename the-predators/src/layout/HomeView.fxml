@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="0.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imvHome" pickOnBounds="true">
+         <image>
+            <Image url="@../image/home.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e44023" fontSmoothingType="LCD" strokeDashOffset="5.0" strokeMiterLimit="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE PREDATORS" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="467.99999475479126" StackPane.alignment="TOP_CENTER">
+         <font>
+            <Font name="Viner Hand ITC" size="50.0" />
+         </font>
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+      </Text>
+      <Button fx:id="btnStart" mnemonicParsing="false" text="Démarrer" textAlignment="CENTER" textFill="#1a541b" StackPane.alignment="TOP_CENTER">
+         <StackPane.margin>
+            <Insets top="200.0" />
+         </StackPane.margin></Button>
+      <Button fx:id="btnParam" mnemonicParsing="false" text="Paramètres" StackPane.alignment="TOP_CENTER">
+         <StackPane.margin>
+            <Insets top="240.0" />
+         </StackPane.margin></Button>
+      <Button fx:id="btnExit" mnemonicParsing="false" text="Quitter" StackPane.alignment="TOP_CENTER">
+         <StackPane.margin>
+            <Insets top="280.0" />
+         </StackPane.margin></Button>
+   </children>
+</StackPane>

@@ -1,0 +1,3 @@
+installer:
+	- intelliji idea ultimate
+	- jdk 11
